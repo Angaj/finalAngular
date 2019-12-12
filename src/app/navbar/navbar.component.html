@@ -1,0 +1,9 @@
+<div class="topnav">
+ <nav> 
+   <a class="active" routerLink="/admin/customer">Customer</a>
+  <a routerLink="/admin/plans">Plans</a>
+  <div class="topnav-right" >
+    <a id="logout" (click)="logout()" *ngIf="authService">Logout</a>
+  </div>
+  </nav>
+</div>  
